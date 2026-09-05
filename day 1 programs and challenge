@@ -1,0 +1,78 @@
+day 1 
+
+  program 1
+  #include <stdio.h>
+int main()
+{
+    int age=18;
+    float height=168.6;
+    char intial='m';
+    printf("my age is %d\n",age);
+    printf("my height is %.1f\n",height);
+    printf("my intial is %c\n",intial);
+    return 0;
+}
+  program 2
+    #include <stdio.h>
+int main()
+{
+    int fno;
+    int sno;
+    printf("give me 2 integer nos=");
+    scanf("%d",&fno);
+    scanf("%d",&sno);
+    printf("frist no is %d\n",fno);
+    printf("second no is %d\n",sno);
+    return 0;
+}
+   program 3
+     #include <stdio.h>
+int main()
+{
+    char name[50];
+    char intial;
+    int age;
+    float height;
+    printf("give me your name intial age height=\n");
+    scanf("%s",name);
+    scanf(" %c",&intial);
+    scanf("%d",&age);
+    scanf("%f",&height);
+    printf("your name is %s\n",name);
+    printf("your intial is %c\n",intial);
+    printf("your age is %d\n",age);
+    printf("your height is %.1f\n",height);
+    return 0;
+}
+    program 4
+      #include <stdio.h>
+
+int main() 
+{
+    int fno;
+    int sno;
+    printf("enter 2 no=\n");
+    scanf("%d",&fno);
+    scanf("%d",&sno);
+    printf("the sum is %d\n",fno+sno);
+    printf("the diff is %d\n",fno-sno);
+    printf("the prod is %d\n",fno*sno);
+    printf("the div is %f\n",(float)fno/sno);
+    return 0;
+}
+    challenge 1
+      #include <stdio.h>
+
+int main() 
+{
+    float fsb;
+    float ssb;
+    printf("enter 2 subjects mark =\n");
+    scanf("%f",&fsb);
+    scanf("%f",&ssb);
+    printf("the sum of sub is %.1f\n",fsb+ssb);
+    printf("the average of sub is %.1f\n",(fsb+ssb)/2);
+    return 0;
+}
+
+    
