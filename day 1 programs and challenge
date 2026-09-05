@@ -1,7 +1,12 @@
-day 1 
+Problem 1
+Write a C program that stores your:
+age
+height
+first initial
+and prints all three.
 
-  program 1
-  #include <stdio.h>
+
+#include <stdio.h>
 int main()
 {
     int age=18;
@@ -12,8 +17,12 @@ int main()
     printf("my intial is %c\n",intial);
     return 0;
 }
-  program 2
-    #include <stdio.h>
+
+Problem 2
+Write a program that asks the user for two integers and prints both numbers.
+
+
+#include <stdio.h>
 int main()
 {
     int fno;
@@ -25,8 +34,16 @@ int main()
     printf("second no is %d\n",sno);
     return 0;
 }
-   program 3
-     #include <stdio.h>
+
+Problem 3
+Ask the user for:
+name/initial
+age
+height
+Then display them.
+
+
+#include <stdio.h>
 int main()
 {
     char name[50];
@@ -44,9 +61,16 @@ int main()
     printf("your height is %.1f\n",height);
     return 0;
 }
-    program 4
-      #include <stdio.h>
 
+Problem 4
+Ask the user for two integers and print their:
+sum
+difference
+product
+division
+
+
+#include <stdio.h>
 int main() 
 {
     int fno;
@@ -60,9 +84,18 @@ int main()
     printf("the div is %f\n",(float)fno/sno);
     return 0;
 }
-    challenge 1
-      #include <stdio.h>
+Challenge 1
+Write a C program that asks the user for:
+Name
+Age
+Marks in Subject 1
+Marks in Subject 2
+Then display:
+Total marks
+Average marks
 
+
+#include <stdio.h>
 int main() 
 {
     float fsb;
