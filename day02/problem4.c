@@ -17,8 +17,8 @@ int main()
     int f2=n%10;
     n=n/10;
     int f3=n%10;
-    printf("the hundreds digits is %d\n",f1);
+    printf("the onces digits is %d\n",f1);
     printf("the tens digits is %d\n",f2);
-    printf("the onces digits is %d\n",f3);
+    printf("the hundreds digits is %d\n",f3);
     return 0;
 }
