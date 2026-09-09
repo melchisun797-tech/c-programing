@@ -1,4 +1,4 @@
-Write a program that takes a number and prints it in reverse.
+//Write a program that takes a number and prints it in reverse.
 
 
 #include <stdio.h>
