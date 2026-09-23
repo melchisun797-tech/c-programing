@@ -19,6 +19,6 @@ int main()
     printf("age is= %d\n",s.age);
     printf("enter cgpa\n");
     scanf("%f",&s.cgpa);
-    printf("cgpa is= %d\n",s.cgpa);
+    printf("cgpa is= %f\n",s.cgpa);
     return 0;
 }
