@@ -10,6 +10,6 @@ int main()
     int a;
     printf("tell me the no");
     scanf("%d",&a);
-    printf("the bigger nois %d",cube(a));
+    printf("the cube no is %d",cube(a));
     return 0;
 }
