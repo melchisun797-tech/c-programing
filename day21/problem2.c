@@ -10,6 +10,6 @@ int main()
     int x;
     printf("tell me the radius");
     scanf("%d",&x);
-    printf("the area is %d",square(x));
+    printf("the square is %d",square(x));
     return 0;
 }
