@@ -1,4 +1,4 @@
-Write a program that prints all command-line arguments.
+//Write a program that prints all command-line arguments.
 
   
 #include <stdio.h>
