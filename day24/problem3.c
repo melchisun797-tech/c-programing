@@ -11,6 +11,6 @@ int main()
     int n,m;
     printf("the 2 no");
     scanf("%d%d",&n,&m);
-    printf("and=%d",n|m);
+    printf("or=%d",n|m);
     return 0;
 }
