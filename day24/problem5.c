@@ -11,6 +11,6 @@ int main()
     int n,m;
     printf("the 2 no");
     scanf("%d%d",&n,&m);
-    printf("not=%d",n<<m);
+    printf("left shift=%d",n<<m);
     return 0;
 }
