@@ -33,4 +33,5 @@ int main()
 
     int l=cv(n,j);
     printf("the no of vowels%d",l);
+    return 0;
 }
