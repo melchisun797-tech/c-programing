@@ -33,4 +33,5 @@ int main()
         }
     int l=lar(arr,n);
     printf("the largest no is %d",arr[l]);
+    return 0;
 }
