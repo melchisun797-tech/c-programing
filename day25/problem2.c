@@ -1,10 +1,10 @@
 //Write a program that:
-//Creates an integer array of 5 elements.
-//Takes 5 numbers from the user.
+//Takes a string from the user.
 //Creates a function:
-//int largest(int a[], int n)
-//The function finds and returns the largest element.
-//Print the largest number in main().
+//int countVowels(char str[])
+//The function counts the vowels (a, e, i, o, u).
+//Returns the vowel count.
+//Print the result in main().
 
 
 #include <stdio.h>
