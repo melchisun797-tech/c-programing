@@ -6,7 +6,7 @@
 #include <stdio.h>
 void reverse(int *p,int n)
 {
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n/2;i++)
         {
             int tem=p[i];
             p[i]=p[(n-1)-i];
