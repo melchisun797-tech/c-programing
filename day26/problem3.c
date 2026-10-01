@@ -38,4 +38,5 @@ for(int i=0;str[i]!='\0';i++)
 }
         int l=countv(str,n);
     printf("the no of vowels %d",l);
+    return 0;
 }
