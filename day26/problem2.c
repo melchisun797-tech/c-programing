@@ -50,4 +50,4 @@ int main()
     int m=selarge(arr,n,l);
     printf("the second largest no is %d",arr[m]);
     return 0;
-}4
+}
