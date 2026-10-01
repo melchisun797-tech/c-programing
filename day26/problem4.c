@@ -29,4 +29,5 @@ int main()
             scanf("%d",&arr[i]);
         }
     reverse(arr,n);
+    return 0;
 }
