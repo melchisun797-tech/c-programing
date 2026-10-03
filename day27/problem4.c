@@ -6,8 +6,8 @@
 #include <stdio.h>
 int difference(int la,int sm)
 {
-    int sum=la-sm;
-    return sum;
+    int diff=la-sm;
+    return diff;
 }
 int main() 
 {
