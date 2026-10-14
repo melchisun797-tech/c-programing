@@ -1,4 +1,4 @@
-Problem 3: Bubble Sort in a Function
+//Bubble Sort in a Function
 
 #include <stdio.h>
 void sort(int arr[],int n)
