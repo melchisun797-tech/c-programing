@@ -6,14 +6,14 @@
 //4. Print the result.
 
 #include <stdio.h>
-#define STUDENT_MODE
+#define MAX(a,b) ((a)>(b))?a:b
+#define MAX3(n,c) ((n)>(c))?n:c
 int main()
 {
-#ifdef STUDENT_MODE
-printf("student mode activated");
-#else
-printf("student mode deactivated");
-#endif
-printf("program started");
+int a,b,c;
+printf("enter 3 no");
+scanf("%d%d%d",&a,&b,&c);
+int n=MAX(a,b);
+printf("max=%d\n",MAX3(n,c));
 return 0;
 }
