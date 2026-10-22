@@ -1,9 +1,9 @@
-//Write a program that:
-//1. Defines a macro named STUDENT_MODE.
-//2. Uses #ifdef STUDENT_MODE to print Student mode enabled.
-//3. Uses #else to print Student mode disabled.
-//4. Prints Program started regardless of the mode.
-
+//Write a C program that uses a macro to find the maximum of three integers.
+//Requirements:
+//1. Define a macro named MAX3(a,b,c).
+//2. Read three integers from the user.
+//3. Use the macro to determine the largest number.
+//4. Print the result.
 
 #include <stdio.h>
 #define STUDENT_MODE
