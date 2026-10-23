@@ -8,3 +8,12 @@
 //3. Use float average_marks(int total) to calculate the average.
 //4. Display the total and average.
 
+
+#include <stdio.h>
+#ifndef STUDENT_H
+#define STUDENT_H
+
+int total(int n,int m,int e);
+float average(int t);
+
+#endif
