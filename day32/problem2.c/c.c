@@ -7,7 +7,7 @@ printf("enter 3 subject mark");
 scanf("%d%d%",&a,&b,&c);
 int x = total(a,b,c);
 int y = average(x);
-printf("%d\n%f\n",x,y);
+printf("%d\n%.2f\n",x,y);
 return 0;
 }
 
