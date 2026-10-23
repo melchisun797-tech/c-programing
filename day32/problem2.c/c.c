@@ -4,9 +4,9 @@ int main()
 {
 int a,b,c;
 printf("enter 3 subject mark");
-scanf("%d%d%",&a,&b,&c);
+scanf("%d%d%d",&a,&b,&c);
 int x = total(a,b,c);
-int y = average(x);
+float y = average(x);
 printf("%d\n%.2f\n",x,y);
 return 0;
 }
